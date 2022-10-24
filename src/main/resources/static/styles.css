@@ -1,0 +1,91 @@
+h1 {
+    color: crimson;
+    font-family: sans-serif, "Microsoft Sans Serif";
+    font-size: xxx-large;
+}
+
+.maintable, th, td {
+    border-color: white;
+    border-style: solid;
+    padding: 30px;
+    font-family: sans-serif;
+    font-style: initial;
+    border-collapse: collapse;
+    font-size: xx-large;
+    text-align: center;
+}
+
+th {
+    background-color: crimson;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.maintable {
+    border-radius: 10px;
+}
+
+#name {
+    text-align: left;
+}
+
+.searchfield {
+    border-color: crimson;
+    border-radius: 20px;
+    padding: 15px;
+    width: 530px;
+    margin-right: 10px;
+    font-size: large;
+}
+
+.searchbutton {
+    background-color: crimson;
+    border-radius: 60px;
+    color: white;
+    padding: 15px;
+    font-size: large;
+}
+
+.basket {
+    background-color: black;
+    color: white;
+    padding: 18px;
+    border-radius: 20px;
+    font-size: xx-large;
+    margin-left: 130px;
+
+}
+
+.actions2 {
+    display: flow;
+
+}
+
+.sortbuttons {
+    background-color: crimson;
+    border-radius: 60px;
+    color: white;
+    padding: 18px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+#newItem {
+    font-size: xxx-large;
+    color: crimson;
+    margin-left: 55px;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: crimson;
+    padding: 20px;
+}
+
+#quantity {
+    width: 20px;
+}
+
+

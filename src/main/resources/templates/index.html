@@ -7,13 +7,20 @@
 </head>
 <body>
 <h1>Bio shop</h1>
+<table class="actions2">
+    <form>
+        <a th:href="@{/bioshop/create}" id="newItem">Add new item</a>
+    </form>
+
+</table>
+
 
 <table class="maintable">
     <thead>
     <tr>
         <th>Name</th>
         <th>Price</th>
-        <th id="quantity">Quantity of stock (kg)</th>
+        <th id="quantity">Quantity of stock</th>
 
     </tr>
     </thead>
