@@ -1,5 +1,5 @@
 h1 {
-    color: crimson;
+    color: cornflowerblue;
     font-family: sans-serif, "Microsoft Sans Serif";
     font-size: xxx-large;
 }
@@ -16,7 +16,7 @@ h1 {
 }
 
 th {
-    background-color: crimson;
+    background-color: cornflowerblue;
     color: white;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -31,7 +31,7 @@ th {
 }
 
 .searchfield {
-    border-color: crimson;
+    border-color: cornflowerblue;
     border-radius: 20px;
     padding: 15px;
     width: 530px;
@@ -40,7 +40,7 @@ th {
 }
 
 .searchbutton {
-    background-color: crimson;
+    background-color: cornflowerblue;
     border-radius: 60px;
     color: white;
     padding: 15px;
@@ -63,7 +63,7 @@ th {
 }
 
 .sortbuttons {
-    background-color: crimson;
+    background-color: cornflowerblue;
     border-radius: 60px;
     color: white;
     padding: 18px;
@@ -75,12 +75,12 @@ th {
 
 #newItem {
     font-size: xxx-large;
-    color: crimson;
+    color: cornflowerblue;
     margin-left: 55px;
     text-decoration: none;
     border-style: solid;
     border-radius: 20px;
-    border-color: crimson;
+    border-color: cornflowerblue;
     padding: 20px;
 }
 
