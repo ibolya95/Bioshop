@@ -47,16 +47,6 @@ th {
     font-size: large;
 }
 
-.basket {
-    background-color: black;
-    color: white;
-    padding: 18px;
-    border-radius: 20px;
-    font-size: xx-large;
-    margin-left: 130px;
-
-}
-
 .actions2 {
     display: flow;
 
@@ -76,7 +66,6 @@ th {
 #newItem {
     font-size: xxx-large;
     color: cornflowerblue;
-    margin-left: 55px;
     text-decoration: none;
     border-style: solid;
     border-radius: 20px;
