@@ -1,6 +1,7 @@
 package com.example.bioshop.controllers;
 
 import com.example.bioshop.models.Product;
+import com.example.bioshop.repositories.ProductRepository;
 import com.example.bioshop.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -16,6 +17,12 @@ public class ProductController {
     @Autowired
     public ProductController(ProductService productService) {
         this.productService = productService;
+    }
+
+    @GetMapping("/search")
+    public String search(@RequestParam String name, Model model) {
+        model.addAttribute("items", productService.findByName(name));
+        return "index";
     }
 
     @GetMapping

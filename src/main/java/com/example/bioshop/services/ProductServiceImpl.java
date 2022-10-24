@@ -47,4 +47,11 @@ public class ProductServiceImpl implements ProductService{
                 .orElseThrow(()->new ProductNotFoundException("No product found"));
         return findProduct;
     }
+
+    @Override
+    public List<Product> findByName(String name) {
+        List<Product> products = productRepository.findProductByName(name);
+        return products;
+    }
+
 }

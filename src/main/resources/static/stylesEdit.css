@@ -1,0 +1,43 @@
+h1 {
+    color: cornflowerblue;
+    font-family: sans-serif, "Microsoft Sans Serif";
+    font-size: xx-large;
+}
+
+label {
+    color: cornflowerblue;
+    font-family: sans-serif, "Microsoft Sans Serif";
+    font-size: x-large;
+}
+
+input {
+    border-color: cornflowerblue;
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    display: flow;
+    margin-top: 10px;
+}
+
+.submit {
+    border-color: cornflowerblue;
+    color: white;
+    padding: 13px;
+    margin-right: 10px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flow;
+    font-size: large;
+    font-family: sans-serif, "Microsoft Sans Serif";
+}
+
+.cancel {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: large;
+    border-radius: 10px;
+    font-family: sans-serif, "Microsoft Sans Serif";
+}
