@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th = "http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Bio Shop</title>
+    <link rel="stylesheet" th:href="@{/styles.css}" />
+</head>
+<body>
+<h1>Bio shop</h1>
+
+<table class="maintable">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th id="quantity">Quantity of stock (kg)</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="item, iter : ${items}" th:object="${item}">
+        <td th:text="${item.getName()}" id="name"></td>
+        <td th:text="${item.getPrice()}"></td>
+        <td th:text="${item.getQuantity()}"> </td>
+
+    </tr>
+
+    </tbody>
+</table>
+
+
+</body>
+</html>
